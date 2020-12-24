@@ -77,16 +77,16 @@ function NavbarBr(props) {
                 href="https://aleksmitmk.github.io/Brainster_Space/Nastani">
                   Настани
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/coworking">
+                <Nav.Link className="underlineHover" href="/coworking">
                   Co-Working
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/Academies">
+                <Nav.Link className="underlineHover" href="/Academies">
                   Академии
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/EventSpace">
+                <Nav.Link className="underlineHover" href="/EventSpace">
                   Простор за Настани
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/Партнерства">
+                <Nav.Link className="underlineHover" href="/Партнерства">
                   Партнерства
                 </Nav.Link>
                 <Button
