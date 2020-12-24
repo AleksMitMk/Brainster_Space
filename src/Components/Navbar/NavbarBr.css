@@ -1,0 +1,280 @@
+.navbar{
+    padding: 0;
+    position: relative;
+}
+.btnNav{
+    color: rgb(255, 212, 82) ;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    background-color: black;
+    min-width: 180px;
+}
+.logoImgMargin{
+  margin-left: 30px;
+  text-align: right;
+}
+.btnNavColapse{
+  background-color: rgb(255, 212, 82) ;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  color: black;
+  min-width: 180px;
+}
+.buttonNav{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 45px;
+}
+ .btnNav span{
+    font-size: 20px;
+    padding-right: 10px;
+}
+#navbarBr .img-thumbnail {
+  max-width: 70px;
+  height: 70px;
+  margin: 20px 0;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: bold;
+    color: black !important;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,205,33)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.navbar-light .navbar-toggler {
+  background-color: black;
+  margin-left: 20px;
+}
+
+.headNav .show{
+  background-color: black !important;
+  transition: 0.3s all ease-in-out;
+}
+.headNav .show div a{
+  color: white !important;
+}
+.navbar-nav{
+  display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+/* .navbar-nav .nav-link{
+  margin: 0 20px;
+} */
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 4px;
+    background-color: #ffc107;
+    content: "";
+    transition: width 0.3s;
+  }
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+ .underlineActive{
+   width: fit-content;
+   border-bottom: 3px solid #ffc107;
+ }
+
+.modal-body .btnSubm{
+  color: rgb(255, 212, 82);
+}
+.modal-body button{
+  font-weight: bold;
+}
+.modal-footer{
+  border-top: none;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-header button span{
+  background-color: black;
+  padding: 0 11px 7px 10px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+.modal-header {
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-weight: bold;
+}
+.modal-body, .modal-header{
+  padding: 20px 40px;
+}
+.modal-footer{
+  padding: 10px 0;
+}
+.modal-footer button{
+  text-transform: uppercase;
+  padding: 10px;
+}
+.modal-footer button i{
+  padding: 0 10px 0 0;
+}
+.was-validated :invalid~.invalid-feedback, #count{
+  position: absolute ;
+  top: 0;
+  right: 13px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+#navbarBr .form-group{
+  position: relative !important;
+}
+.label{
+  font-weight: bold;
+}
+#navbarBr input:placeholder-shown{
+  font-style: italic;
+    font-size: 22px;
+}
+.defCol{
+  padding: 0;
+}
+
+#subNav{
+  width: 58%;
+    margin-left: 4%;
+}
+#subNav .navbar-brand{
+  margin-left: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navDown{
+  width: 60%;
+  margin-left: 4%;
+}
+.responsiveNav{
+  background-color: #f8f9fa;
+  
+}
+.responsiveNav a{
+  font-size: 14px !important;
+  
+}
+.bottomBrand{
+  margin-left: 35px;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+      max-width: 607px;
+  }
+  
+}
+@media screen and (max-width: 518px) {
+  .was-validated :invalid~.invalid-feedback, #count{
+    top: 12px;
+  }
+  
+ 
+  .navDown .navbar-brand{
+    display: none;
+  }
+  .navDown a{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logoImgMargin{
+    margin: 0;
+  }
+  .navDown a{
+    font-size: 12px;
+  }
+  .navDown{
+    margin: 0;
+    width: 100%;
+  } 
+  .bottonBrand{
+    display: none;
+  }
+  .navDown{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    z-index: 888888;
+    margin: 0;
+    padding: 0;
+}
+  #responsive-navbar-nav{
+    position: absolute;
+    top: 0px;
+    min-width: 100%;
+  }
+  .responsiveNav {
+    background-color: #000000;
+    color: white;
+    padding: 52px;
+}
+.responsiveNav a{
+  color: white !important;
+}
+
+  .SecondBtnToggle{
+    position: absolute;
+    left: 52%;
+    top: -80px;
+    padding: 8px 14px;
+  }
+  .SecondBtnToggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+  .lineOne, .lineTwo, .lineThree{
+    height: 2px;
+    background-color: #ffc107;
+  }
+  .lineOne{
+    width: 24px;
+    margin: 4px auto;
+  }
+  .lineTwo{
+    width: 16px;
+    margin: 4px auto;
+  }
+  .lineThree{
+    width: 5px;
+    margin: 4px auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .logoImgMargin{
+    margin: 0;
+  }
+  .navDown a{
+    font-size: 12px !important;
+  }
+  .bottomBrand {
+    margin: 0;
+}
+}
+@media only screen and (min-width: 992px) {
+  .logoImgMargin{
+    margin-left: 30px;
+  }
+  .navDown a{
+    font-size: 18px;
+  }
+}

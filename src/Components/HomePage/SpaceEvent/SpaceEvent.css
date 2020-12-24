@@ -1,0 +1,28 @@
+
+#btnEvent button a{
+	border-radius: 3px;
+	color: #ffc107;
+	text-transform: uppercase;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+#btnEvent button a:hover{
+	text-decoration: none;
+	color: white;
+}
+#btnEvent button i{
+	margin: 0 10px 0 0 ;
+}
+.SpaceEvent{
+    margin: 100px 0;
+}
+.eduCompPart{
+	padding: 40px 20px;
+}
+@media only screen and (max-width: 992px) {
+	.SpaceEvent {
+		margin: 0;
+	}
+  }

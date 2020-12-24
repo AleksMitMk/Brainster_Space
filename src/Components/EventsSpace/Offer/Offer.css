@@ -1,0 +1,28 @@
+.offer{
+    margin: 70px 0;
+}
+.offerCenter{
+    margin: 0 auto;
+}
+.offerBox{
+    display: flex;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 15px 42px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.offerBox i{
+    padding-right: 20px;
+    color: #ffc107;
+}
+.offerBox h3{
+    margin: 0;
+}
+.allBoxOffer{
+    display: flex;
+    flex-wrap: wrap;
+}

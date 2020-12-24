@@ -1,0 +1,9 @@
+.lineThrough *{
+    text-decoration: line-through;
+}
+.lineThrough button:hover{
+    text-decoration: line-through;
+}
+.coworking{
+    margin: 100px 0;
+}

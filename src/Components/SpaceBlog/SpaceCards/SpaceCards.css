@@ -1,0 +1,37 @@
+.spaceCards{
+    margin: 70px 0;
+}
+.spaceCenter{
+    margin: 0 auto;
+}
+.spaceCards .column div:first-child {
+    margin-left: 0;
+    width: 100%;
+}
+.spaceCards a{
+    color: black;
+}
+.spaceCards a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+.cicleBtn{
+    border-radius: 25px;
+}
+.spaceCards .card{
+    margin-bottom: 30px;
+}
+.bottomBtnBranch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spaceCards .card-body {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+

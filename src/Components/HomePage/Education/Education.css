@@ -1,0 +1,40 @@
+/* .education{
+    margin: 50px 0;
+} */
+.headCol{
+    margin: 0 auto;
+}
+.img-fluid{
+    border-radius: 10px;
+}
+.eduCompPart{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.titlePart *{
+    margin: 20px 0;
+}
+.titlePart h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.btnEduComp *{
+    padding: 10px 30px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.education .nameColor{
+    color: black;
+}
+.education .btn-dark{
+    color: #ffc107 !important;
+}
+@media only screen and (max-width: 600px) {
+    .titlePart h1 {
+        font-weight: bold;
+        font-size: 39px;
+    }
+}

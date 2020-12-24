@@ -1,0 +1,16 @@
+
+#btnEvent button{
+	border-radius: 3px;
+	color: #ffc107;
+	text-transform: uppercase;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+#btnEvent button i{
+	margin: 0 10px 0 0 ;
+}
+.SpaceEvent{
+    margin: 100px 0;
+}

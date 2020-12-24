@@ -1,0 +1,95 @@
+.academyCard{
+    margin-top: 70px;
+}
+.academyImg{
+    background-image: url("../../../Images/Za_Nas/edukacija.jpg");
+
+}
+.academyImg1{
+    background-image: url("../../../Images/Za_Nas/edukacija2.jpg");
+}
+.academyImg2{
+    background-image: url("../../../Images/Za_Nas/edukacija1.jpg");
+}
+.academyImg3{
+    background-image: url("../../../Images/Za_Nas/coworking.jpg");
+}
+.academyImg4{
+    background-image: url("../../../Images/Za_Nas/nastani.jpg");
+}
+.academyImg5{
+    background-image: url("../../../Images/Za_Nas/prostor_za_nastani.jpg");
+}
+
+.purpleOverlayImage{
+    background: linear-gradient(rgba(179, 64, 179, 0.678), rgba(54, 12, 54, 0.678));
+}
+.redOverlayImage{
+    background: linear-gradient(rgba(199, 102, 102, 0.6), rgba(56, 14, 14, 0.6));
+}
+.greenOverlayImage{
+    background: linear-gradient(rgba(96, 192, 112, 0.5), rgba(14, 58, 18, 0.86));
+}
+.blueOverlayImage{
+    background: linear-gradient(rgba(98, 82, 206, 0.5), rgba(20, 15, 56, 0.86));
+}
+.greenBlueOverlayImage{
+    background: linear-gradient(rgba(59, 133, 146, 0.5), rgba(11, 44, 46, 0.86));
+}
+.img-cont{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.allImg{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 100%;
+}
+.img-cont:hover .academyImg,
+.img-cont:hover .academyImg1,
+.img-cont:hover .academyImg2,
+.img-cont:hover .academyImg3,
+.img-cont:hover .academyImg4,
+.img-cont:hover .academyImg5{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.2);
+}
+/* .overlay:hover{
+    transform: scale(1.05);
+    transition: 0.5s all ease-in-out;
+} */
+.insideText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 13px;
+}
+.insideText i{
+    font-size: 25px;
+    margin-right: 15px;
+    width: 25px;
+}
+.insideText p{
+    margin: 0;
+    font-weight: bold;
+}

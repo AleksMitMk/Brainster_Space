@@ -1,0 +1,20 @@
+.Partners{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#btnPartner button{
+	border-radius: 3px;
+	color: #ffc107;
+	text-transform: uppercase;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+#btnPartner button i{
+	margin: 0 10px 0 0 ;
+}
+#btnPartner{
+    margin: 20px auto;
+}

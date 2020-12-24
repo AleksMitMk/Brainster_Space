@@ -1,0 +1,16 @@
+.ourSpace{
+    margin: 80px 0;
+}
+.ourSpace .img-fluid{
+    border-radius: 0;
+}
+.imgDef{
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bild p{
+    font-weight: bold;
+}

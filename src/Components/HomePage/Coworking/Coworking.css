@@ -1,0 +1,39 @@
+.lineThrough *{
+    text-decoration: line-through;
+}
+.lineThrough button:hover{
+    text-decoration: line-through;
+}
+
+.popover-body{
+    background-color: white;
+}
+.soldOut{
+    background-color: rgb(255, 212, 82) ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.soldOut h4{
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 7px 0;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .soldOut h4 {
+        margin: 6px 0;
+        font-size: 20px;
+    }
+    .soldOut{
+        width: 135px;
+    }
+}
+.coworking .nameColor{
+    color: #ffc107;
+}
