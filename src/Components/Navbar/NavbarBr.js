@@ -74,19 +74,19 @@ function NavbarBr(props) {
                 onClick={()=>setUnderline(!underline)}
                 className={ underline === true ? "underlineActive" : "underlineHover"} 
                 
-                href="/Nastani">
+                href="https://aleksmitmk.github.io/Brainster_Space/Nastani">
                   Настани
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="/coworking">
+                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/coworking">
                   Co-Working
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="/Academies">
+                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/Academies">
                   Академии
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="/EventSpace">
+                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/EventSpace">
                   Простор за Настани
                 </Nav.Link>
-                <Nav.Link className="underlineHover" href="/Партнерства">
+                <Nav.Link className="underlineHover" href="https://aleksmitmk.github.io/Brainster_Space/Партнерства">
                   Партнерства
                 </Nav.Link>
                 <Button
