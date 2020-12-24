@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Brainster_Space/precache-manifest.f3b63c5789446e6fb696e0c513ac9596.js"
+  "/Brainster_Space/precache-manifest.d39d962ed21ff190bea97bfd4f3a3e0c.js"
 );
 
 self.addEventListener('message', (event) => {
