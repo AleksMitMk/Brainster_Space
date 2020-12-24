@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd4fa49434cfafd49fb06ea5f88cb236",
+    "revision": "9411eb03791916b55f7b95b03aef2faf",
     "url": "/AleksMitMk/Brainster_Space.git/index.html"
   },
   {
-    "revision": "35fc30b89e134bf83794",
-    "url": "/AleksMitMk/Brainster_Space.git/static/css/2.de424728.chunk.css"
+    "revision": "280f6c3b3294fd5866ad",
+    "url": "/AleksMitMk/Brainster_Space.git/static/css/2.5b44f0a0.chunk.css"
   },
   {
     "revision": "bae3cf2174e167ea64b0",
     "url": "/AleksMitMk/Brainster_Space.git/static/css/main.4fdebd1f.chunk.css"
   },
   {
-    "revision": "35fc30b89e134bf83794",
+    "revision": "280f6c3b3294fd5866ad",
     "url": "/AleksMitMk/Brainster_Space.git/static/js/2.909ace54.chunk.js"
   },
   {
