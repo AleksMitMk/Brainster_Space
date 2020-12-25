@@ -19,8 +19,7 @@ function App() {
           <NavbarBr />
           <Switch>
             <Route exact path="/" component={HomePage}/>
-            <Route exact path="https://aleksmitmk.github.io/Brainster_Space/" component={HomePage}/>
-            <Route path="/home" component={HomePage}/>
+            <Route path="https://aleksmitmk.github.io/Brainster_Space/home" component={HomePage}/>
             <Route path="/EventSpace" component={EventsSpace}/>
             <Route path="/Academies" component={Academies}/>
             <Route path="/Nastani" component={MyCalendar} />
