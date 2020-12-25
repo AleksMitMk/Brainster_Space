@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './Components/HomePage/HomePage';
@@ -15,18 +15,18 @@ function App() {
   return (
     <div className="App">
       <Container fluid>
-        <HashRouter>
+        <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
           <NavbarBr />
           <Switch>
             <Route exact path="https://aleksmitmk.github.io/Brainster_Space/" component={HomePage}/>
             <Route path="/home" component={HomePage}/>
-            <Route path="https://aleksmitmk.github.io/Brainster_Space/EventSpace" component={EventsSpace}/>
-            <Route path="https://aleksmitmk.github.io/Brainster_Space/Academies" component={Academies}/>
-            <Route path="https://aleksmitmk.github.io/Brainster_Space/Nastani" component={MyCalendar} />
-            <Route path="https://aleksmitmk.github.io/Brainster_Space/SpaceBLog/:category" component={SpaceBlog} />
+            <Route path="/EventSpace" component={EventsSpace}/>
+            <Route path="/Academies" component={Academies}/>
+            <Route path="/Nastani" component={MyCalendar} />
+            <Route path="/SpaceBLog/:category" component={SpaceBlog} />
           </Switch>
           <FooterBr/>
-        </HashRouter>
+        </BrowserRouter>
       </Container>
     </div>
   );
