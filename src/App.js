@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App">
       <Container fluid>
-        <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
+        <BrowserRouter>
           <NavbarBr />
           <Switch>
-            <Route exact path="https://aleksmitmk.github.io/Brainster_Space/" component={HomePage}/>
-            <Route path="https://aleksmitmk.github.io/Brainster_Space/home" component={HomePage}/>
+            <Route exact path="/" component={HomePage}/>
+            <Route path="/home" component={HomePage}/>
             <Route path="/EventSpace" component={EventsSpace}/>
             <Route path="/Academies" component={Academies}/>
             <Route path="/Nastani" component={MyCalendar} />

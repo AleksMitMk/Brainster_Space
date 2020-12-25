@@ -28,7 +28,7 @@ function CarouselSpaceBlog(props) {
                             <div className="black-overlay"></div>
                             <Carousel.Caption>
                                 <div className="filterName">{el.branch}</div>
-                                <h1>{el.title}</h1>
+                                <h2>{el.title}</h2>
                                 
                                 <div className="position"><p>{el.text} </p><span>{i+1}/{props.cards.length}</span></div>
                                 <Button variant="light" className="showMore">
