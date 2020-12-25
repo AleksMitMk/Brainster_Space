@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c36d6917b604d4f434697451e099a9c",
+    "revision": "6d90a3355d3b705890ccc20a11d5fc4e",
     "url": "/Brainster_Space/index.html"
   },
   {
-    "revision": "280f6c3b3294fd5866ad",
+    "revision": "8276df4154173ddaa5c9",
     "url": "/Brainster_Space/static/css/2.5b44f0a0.chunk.css"
   },
   {
-    "revision": "ffda84f708b3def78081",
+    "revision": "d01d6bc44ceb277542c1",
     "url": "/Brainster_Space/static/css/main.d78d3319.chunk.css"
   },
   {
-    "revision": "280f6c3b3294fd5866ad",
-    "url": "/Brainster_Space/static/js/2.909ace54.chunk.js"
+    "revision": "8276df4154173ddaa5c9",
+    "url": "/Brainster_Space/static/js/2.3c326880.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Brainster_Space/static/js/2.909ace54.chunk.js.LICENSE.txt"
+    "url": "/Brainster_Space/static/js/2.3c326880.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffda84f708b3def78081",
-    "url": "/Brainster_Space/static/js/main.685ef9f4.chunk.js"
+    "revision": "d01d6bc44ceb277542c1",
+    "url": "/Brainster_Space/static/js/main.0a4cadea.chunk.js"
   },
   {
     "revision": "45dbccb1d15e4965627e",
