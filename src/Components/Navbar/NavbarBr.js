@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./NavbarBr.css";
 import {
   Col,
@@ -234,14 +235,14 @@ function NavbarBr(props) {
               </Navbar.Toggle>
               <Navbar.Collapse id="responsive-navbar-nav" >
                 <Nav className="mr-auto responsiveNav" >
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/all">Сите</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Кариера">Кариера</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Технологија">Технологија</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Data_Science">Data Science</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Маркетинг">Маркетинг</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Дизајн">Дизајн</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/Impact">Impact</Nav.Link>
-                  <Nav.Link className="underlineHover" href="/SpaceBLog/SpaceFamilly">#SpaceFamilly</Nav.Link>
+                  <Link className="underlineHover" href="/SpaceBLog/all">Сите</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Кариера">Кариера</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Технологија">Технологија</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Data_Science">Data Science</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Маркетинг">Маркетинг</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Дизајн">Дизајн</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/Impact">Impact</Link>
+                  <Link className="underlineHover" href="/SpaceBLog/SpaceFamilly">#SpaceFamilly</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
