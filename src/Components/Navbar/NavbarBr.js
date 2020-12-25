@@ -74,7 +74,7 @@ function NavbarBr(props) {
                 onClick={()=>setUnderline(!underline)}
                 className={ underline === true ? "underlineActive" : "underlineHover"} 
                 
-                href="https://aleksmitmk.github.io/Brainster_Space/Nastani">
+                href="/Nastani">
                   Настани
                 </Nav.Link>
                 <Nav.Link className="underlineHover" href="/coworking">
