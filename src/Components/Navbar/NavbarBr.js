@@ -45,7 +45,7 @@ function NavbarBr(props) {
             xs={{ span: 3 }}
             className="logoImgMargin"
           >
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/Brainster_Space">
               <Image
                 src={require(`../../Images/brainster_space_logo.svg`)}
                 thumbnail

@@ -18,7 +18,7 @@ function App() {
         <BrowserRouter>
           <NavbarBr />
           <Switch>
-            <Route exact path="/" component={HomePage}/>
+            <Route exact path="/Brainster_Space/" component={HomePage}/>
             <Route path="/home" component={HomePage}/>
             <Route path="/EventSpace" component={EventsSpace}/>
             <Route path="/Academies" component={Academies}/>
