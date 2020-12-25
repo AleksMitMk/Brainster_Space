@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Brainster_Space/static/css/main.d78d3319.chunk.css",
-    "main.js": "/Brainster_Space/static/js/main.579f4dca.chunk.js",
-    "main.js.map": "/Brainster_Space/static/js/main.579f4dca.chunk.js.map",
+    "main.js": "/Brainster_Space/static/js/main.4afcd0e6.chunk.js",
+    "main.js.map": "/Brainster_Space/static/js/main.4afcd0e6.chunk.js.map",
     "runtime-main.js": "/Brainster_Space/static/js/runtime-main.dbba2061.js",
     "runtime-main.js.map": "/Brainster_Space/static/js/runtime-main.dbba2061.js.map",
     "static/css/2.5b44f0a0.chunk.css": "/Brainster_Space/static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.3facf903.chunk.js": "/Brainster_Space/static/js/2.3facf903.chunk.js",
-    "static/js/2.3facf903.chunk.js.map": "/Brainster_Space/static/js/2.3facf903.chunk.js.map",
+    "static/js/2.909ace54.chunk.js": "/Brainster_Space/static/js/2.909ace54.chunk.js",
+    "static/js/2.909ace54.chunk.js.map": "/Brainster_Space/static/js/2.909ace54.chunk.js.map",
     "index.html": "/Brainster_Space/index.html",
-    "precache-manifest.745f26e6d38c36abd98db85c0e54525d.js": "/Brainster_Space/precache-manifest.745f26e6d38c36abd98db85c0e54525d.js",
+    "precache-manifest.7fb5a732c6f40846df27c560d980b864.js": "/Brainster_Space/precache-manifest.7fb5a732c6f40846df27c560d980b864.js",
     "service-worker.js": "/Brainster_Space/service-worker.js",
     "static/css/2.5b44f0a0.chunk.css.map": "/Brainster_Space/static/css/2.5b44f0a0.chunk.css.map",
     "static/css/main.d78d3319.chunk.css.map": "/Brainster_Space/static/css/main.d78d3319.chunk.css.map",
-    "static/js/2.3facf903.chunk.js.LICENSE.txt": "/Brainster_Space/static/js/2.3facf903.chunk.js.LICENSE.txt",
+    "static/js/2.909ace54.chunk.js.LICENSE.txt": "/Brainster_Space/static/js/2.909ace54.chunk.js.LICENSE.txt",
     "static/media/0.jpg": "/Brainster_Space/static/media/0.bc5974a7.jpg",
     "static/media/1.jpg": "/Brainster_Space/static/media/1.0b7bc21d.jpg",
     "static/media/1_xX6Cpskem0SbqQuPZ8R-4g.jpeg": "/Brainster_Space/static/media/1_xX6Cpskem0SbqQuPZ8R-4g.09b258d8.jpeg",
@@ -71,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.dbba2061.js",
     "static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.3facf903.chunk.js",
+    "static/js/2.909ace54.chunk.js",
     "static/css/main.d78d3319.chunk.css",
-    "static/js/main.579f4dca.chunk.js"
+    "static/js/main.4afcd0e6.chunk.js"
   ]
 }
