@@ -20,10 +20,10 @@ function App() {
           <Switch>
             <Route exact path="https://aleksmitmk.github.io/Brainster_Space/" component={HomePage}/>
             <Route path="/home" component={HomePage}/>
-            <Route path="/EventSpace" component={EventsSpace}/>
-            <Route path="/Academies" component={Academies}/>
-            <Route path="/Nastani" component={MyCalendar} />
-            <Route path="/SpaceBLog/:category" component={SpaceBlog} />
+            <Route path="https://aleksmitmk.github.io/Brainster_Space/EventSpace" component={EventsSpace}/>
+            <Route path="https://aleksmitmk.github.io/Brainster_Space/Academies" component={Academies}/>
+            <Route path="https://aleksmitmk.github.io/Brainster_Space/Nastani" component={MyCalendar} />
+            <Route path="https://aleksmitmk.github.io/Brainster_Space/SpaceBLog/:category" component={SpaceBlog} />
           </Switch>
           <FooterBr/>
         </HashRouter>
