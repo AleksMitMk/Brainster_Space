@@ -15,10 +15,10 @@ function App() {
   return (
     <div className="App">
       <Container fluid>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <NavbarBr />
           <Switch>
-            <Route exact path="/Brainster_Space/" component={HomePage}/>
+            <Route exact path="/" component={HomePage}/>
             <Route path="/home" component={HomePage}/>
             <Route path="/EventSpace" component={EventsSpace}/>
             <Route path="/Academies" component={Academies}/>
