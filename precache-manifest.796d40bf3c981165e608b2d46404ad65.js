@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d27fd2987962e7a1b59cec7e2605d59",
+    "revision": "f0d96171780145abbdadbeecfb9e4c82",
     "url": "/Brainster_Space/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Brainster_Space/static/css/2.5b44f0a0.chunk.css"
   },
   {
-    "revision": "480073f4bb23afb5c512",
-    "url": "/Brainster_Space/static/css/main.d78d3319.chunk.css"
+    "revision": "1c47ceddcaaae6d83c83",
+    "url": "/Brainster_Space/static/css/main.04d67a93.chunk.css"
   },
   {
     "revision": "280f6c3b3294fd5866ad",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Brainster_Space/static/js/2.909ace54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "480073f4bb23afb5c512",
-    "url": "/Brainster_Space/static/js/main.637b605d.chunk.js"
+    "revision": "1c47ceddcaaae6d83c83",
+    "url": "/Brainster_Space/static/js/main.09f9745a.chunk.js"
   },
   {
     "revision": "45dbccb1d15e4965627e",
@@ -204,8 +204,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Brainster_Space/static/media/anja.eaf4e799.jpg"
   },
   {
-    "revision": "635d779c9ca6751fbff237e4c9e02eee",
-    "url": "/Brainster_Space/static/media/brainster_space_logo.635d779c.svg"
+    "revision": "090ce3d30081270fd168995d6d18dc1b",
+    "url": "/Brainster_Space/static/media/brainster_space_logo.090ce3d3.svg"
   },
   {
     "revision": "9757df2ead37ac78d57caa2d5909997a",
@@ -244,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Brainster_Space/static/media/interface.108c7ea0.png"
   },
   {
-    "revision": "f556dbc376a719368f1c91bb69ec72bd",
-    "url": "/Brainster_Space/static/media/microphone-with-cable.f556dbc3.svg"
+    "revision": "56b901468bc1eb634de2945cbd644c52",
+    "url": "/Brainster_Space/static/media/microphone-with-cable.56b90146.svg"
   },
   {
     "revision": "9a57a0dcab519ca1b0e53d8ba95a44df",
